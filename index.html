@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSUN Map Quiz</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="text.css">
+    <script src="script.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOOr5MiMmTU8Au0h5AOQxxFvAkHty-Opc&callback=initMap">
+    </script>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div id="timerContainer">
+<div id="timer">CSUN MAP QUIZ<br>
+   <br> Double click on the map where you think the location is.<br> A timer will start as soon as the difficulty level is selected.
+</div>
+<div id="startTimer">
+    <i class="fas fa-play"></i>
+  </div>
+<div id="pauseTimer" onclick="pauseTimer()" >
+    <i class="fas fa-pause"></i>
+  </div>
+</div>
+  </head>
+  <body>
+  	<div id='answer'></div>&nbsp;&nbsp;
+<div id="map" style="width:400px;height:500px;"></div>&nbsp;&nbsp;
+<div id='stat'></div>&nbsp;&nbsp;
+<div id='stick'></div>
+
+  </body>                                   <!--this is for the difficulty mode -->
+  <footer><form id="player_mode" action="index.html">
+      <input type="radio" name="mode" value="1" onchange="this.form.submit()"> Easy
+      <input type="radio" name="mode" value="2" onchange="this.form.submit()"> Hard
+    </form></footer>
+</html>
