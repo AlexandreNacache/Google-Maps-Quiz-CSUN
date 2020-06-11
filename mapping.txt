@@ -1,0 +1,54 @@
+           // Where is live oak? 
+         bounds: {
+            north: 34.2384349994959,
+            south: 34.23813670141812,
+            east: -118.52759140700242,
+            west: -118.52885279600741
+          
+        
+           // Where is sierra hall?
+          bounds: 
+            north: 34.23848821686623,  
+            south: 34.2380613098187,
+            east: -118.53002387262846,
+            west: -118.53146765184647
+          
+        
+           // where is the library?
+          bounds: 
+            north: 34.24046341447913,
+            south: 34.239705885222754,
+            east: -118.52856288969816,
+            west: -118.53007938653947
+          
+      
+           // Where is admission and records?
+          bounds: 
+            north: 34.24072490266103,
+            south: 34.239909724617995,
+            east: -118.53013466418089,
+            west: -118.53146340639115
+          
+      
+        // Where is Santa Susana hall?
+          bounds: 
+            north: 34.23795368614722,
+            south: 34.23726659912975,
+            east: -118.5290427078162,
+            west: -118.52952506394332
+          
+          New location below…
+
+            // Where is Jeanne Chisholm Hall ?
+            bounds :
+            North: 34.23779632442708
+            South: 34.237331088895274
+            East: -118.52578402480754
+            West: -118.52643973303167
+
+          
+          
+          
+          my api
+          
+          AIzaSyDOOr5MiMmTU8Au0h5AOQxxFvAkHty-Opc
